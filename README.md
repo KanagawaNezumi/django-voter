@@ -18,6 +18,7 @@ from django.db import models
 from voter.models import VoteMixin
 
 class Post(VoteMixin, models.Model): 
+
   title = models.CharField(max_length=20)
 ```
 
